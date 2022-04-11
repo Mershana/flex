@@ -1,0 +1,97 @@
+.warter{
+	border: 1px solid red;
+	margin: 20px auto;
+	width: 900px;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	/* главная ось слева направо */
+	justify-content: flex-end;
+	/* прижимаем блоки к концу оси. Для этого justify-content установим в значение flex-end: */
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+}
+
+
+
+
+.warter{
+	border: 1px solid red;
+	margin: 20px auto;
+	width: 900px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	/* главная ось сверху вниз */
+	justify-content: flex-end;
+	 /* блоки к концу главной оси */
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+}
+
+
+
+
+.warter{
+	border: 1px solid red;
+	margin: 20px auto;
+	width: 900px;
+	height: 400px;
+	display: flex;
+	flex-direction: row-reverse;
+	/* главная ось справа налево */
+	justify-content: flex-start;
+	/* блоки к началу главной оси */
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+}
+
+
+.warter{
+	border: 1px solid red;
+	margin: 20px auto;
+	width: 900px;
+	height: 400px;
+	display: flex;
+	flex-direction: row-reverse;
+	/* главная ось справа налево */
+	justify-content: flex-end;
+	/* блоки к концу главной оси */
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+}
+
+
+.warter{
+	border: 1px solid red;
+	margin: 20px auto;
+	width: 900px;
+	height: 400px;
+	display: flex;
+	flex-direction: column-reverse;
+	/* главная ось снизу вверх */
+	justify-content: flex-end;
+	 /* блоки к концу главной оси */
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+}

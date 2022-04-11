@@ -1,0 +1,77 @@
+/*						 Размещение флекс элементов в ряд или колонку
+
+Сейчас мы с вами начнем изучать продвинутые вещи для работы с флекс элементами. Для начала давайте рассмотрим специальное свойство flex-direction, которое регулирует то, как выстраиваются наши блоки. По умолчанию оно имеет значение row, поэтому элементы выстраиваются в ряд. Давайте посмотрим, какие еще есть значения у этого свойства. */
+
+							/* Значение row-reverse */
+/* Значение row-reverse также позволяет выстраивать блоки в ряд, прижимая их к правому краю. При этом происходит переворот порядка - первый блок будет самым правым: */
+
+								/* Значение column */
+/* Значение column выстраивает элементы в колонку: */
+
+							/* Значение column-reverse */
+/* Зададим теперь значение column-reverse. В этом случае колонка будет перевернутой - элементы будут прижаты к низу, при этом первый элемент будет самым нижним: */
+
+/* 
+.parent{
+	display: flex; 
+	предназначенный для построения сеток и создания сложных раскладок блоков.
+	flex-direction: row;
+	задаем контейнер располагатся по главной оси 
+	width: 900px;
+	height: 400px;
+	margin: 20px auto;
+	border: 1px solid red;
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+	
+} */
+
+
+/* .parent{
+	display: flex; 
+	flex-direction: column;
+	flex-direction: column выстраивает элементы в колонку
+	width: 900px;
+	height: 400px;
+	margin: 20px auto;
+	border: 1px solid red;
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px; */
+
+	/* .parent{
+		display: flex; 
+		flex-direction: row-reverse;
+		выстраивает блоки в ряд, прижимая их к правому краю. При этом происходит переворот порядка - первый блок будет самым правым:
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	
+	.elem{
+		border: 1px solid green;
+		width: 120px;
+		height: 60px; */
+
+		/* .parent{
+		display: flex; 
+		flex-direction: column-reverse;
+		В этом случае колонка будет перевернутой - элементы будут прижаты к низу, при этом первый элемент будет самым нижним
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	
+	.elem{
+		border: 1px solid green;
+		width: 120px;
+		height: 60px;  */
