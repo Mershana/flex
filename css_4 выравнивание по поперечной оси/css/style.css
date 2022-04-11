@@ -1,0 +1,141 @@
+			/* Выравнивание флекс блоков по поперечной оси CSS */
+
+
+/* Давайте теперь будем выравнивать блоки и по поперечной оси. Выравнивание по этой оси задается свойством align-items. Значение flex-start прижимает элементы к началу оси, а значение flex-end - к концу. */
+
+
+/* Задача 1 */
+.wrapper{
+	border: 1px solid red;
+	width: 900px;
+	height: 400px;
+	margin: 20px auto;
+
+	display: flex;
+	flex-direction:  column-reverse;     /* главная ось вниз, поперечная вправо */
+	justify-content: flex-end; /* блоки к концу главной оси */
+	align-items:     flex-end;   /* блоки к концу поперечной оси */
+}
+
+.elem{
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+
+/* Задача 2 */
+.wrapper{
+	border: 1px solid red;
+	width: 900px;
+	height: 400px;
+	margin: 20px auto;
+
+	display: flex;
+	flex-direction:  row-reverse;  /* главная ось налево, поперечная вверх */
+	justify-content: flex-start; /* блоки к началу главной оси */
+	align-items:     flex-end;   /* блоки к концу поперечной оси */
+}
+
+
+/* Задача 3 */
+.elem{
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+
+
+.wrapper{
+	border: 1px solid red;
+	width: 900px;
+	height: 400px;
+	margin: 20px auto;
+
+	display: flex;
+	flex-direction:  column-reverse; /* главная ось вверх, поперечная вправо */
+	justify-content: flex-end;     /* блоки к концу главной оси */
+	align-items:     flex-start;     /* блоки к началу поперечной оси */
+}
+
+/* Задача 4 */
+.elem{
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+
+
+.wrapper{
+	border: 1px solid red;
+	width: 900px;
+	height: 400px;
+	margin: 20px auto;
+
+	display: flex;
+	flex-direction:  column-reverse; /* главная ось вверх, поперечная вправо */
+	justify-content: flex-end;     /* блоки к концу главной оси */
+	align-items:     flex-end;     /* блоки к концу поперечной оси */
+}
+
+
+/* Задача 5 */
+.elem{
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+
+
+.wrapper{
+	border: 1px solid red;
+	width: 900px;
+	height: 400px;
+	margin: 20px auto;
+
+	display: flex;
+	flex-direction:  row;        /* главная ось направо, поперечная вниз */
+	justify-content: flex-start; /* блоки к началу главной оси */
+	align-items:     flex-end;   /* блоки к концу поперечной оси */
+}
+
+
+/* Задача 6 */
+.elem{
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+
+
+.wrapper{
+	border: 1px solid red;
+	width: 900px;
+	height: 400px;
+	margin: 20px auto;
+
+	display: flex;
+	flex-direction:  row;        /* главная ось направо, поперечная вниз */
+	justify-content: center; /* блоки к центру главной оси */
+	align-items:     flex-start;   /* блоки к началу поперечной оси */
+}
+
+
+/* Задача 7 */
+.elem{
+	width: 120px;
+	height: 60px;
+	border: 1px solid green;
+}
+
+
+.wrapper{
+	border: 1px solid red;
+	width: 900px;
+	height: 400px;
+	margin: 20px auto;
+
+	display: flex;
+	flex-direction:  row;        /* главная ось направо, поперечная вниз */
+	justify-content: center; /* блоки к центру главной оси */
+	align-items:flex-end;   /* блоки к концу поперечной оси */
+}
