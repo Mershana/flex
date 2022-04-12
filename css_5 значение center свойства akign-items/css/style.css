@@ -1,0 +1,127 @@
+				/* Значение center свойства align-items */
+/* Значение center позволяет выровнять элементы по центру по поперечной оси: */
+
+/* задача 1 */
+.wrapper{
+	border: 1px solid red;
+	margin: 20px auto;
+	width: 800px;
+	height: 400px;
+
+	display: flex;
+	flex-direction: row; /* главная ось слева направо */
+	align-items: center; /* центрируем по побочной оси */
+	justify-content: center; /* центрируем по главной оси */
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+}
+
+/* задача 2 */
+
+.wrapper{
+	border: 1px solid red;
+	margin: 20px auto;
+	width: 800px;
+	height: 400px;
+
+	display: flex;
+	flex-direction: row-reverse; /* главная ось справа налево */
+	align-items: center; /* центрируем по побочной оси */
+	justify-content: center; /* центрируем по главной оси */
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+}
+
+/* задача 3 */
+
+.wrapper{
+	border: 1px solid red;
+	margin: 20px auto;
+	width: 800px;
+	height: 400px;
+
+	display: flex;
+	flex-direction: row; /* главная ось справа налево */
+	align-items: center; /* центрируем по побочной оси */
+	justify-content: flex-end; /* блоки к концу главной оси */
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+}
+
+/* задача 4 */
+
+.wrapper{
+	border: 1px solid red;
+	margin: 20px auto;
+	width: 800px;
+	height: 400px;
+
+	display: flex;
+	flex-direction: row; /* главная ось справа налево */
+	align-items: center; /* центрируем по побочной оси */
+	justify-content: space-between; /* номерно распределяются по всей строке, при этом пустое пространство между первым и после последнего флекс элемента равно половине между соседними элементами в контейнере. */
+	
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+	
+}
+
+/* задача 5 */
+
+.wrapper{
+	border: 1px solid red;
+	margin: 20px auto;
+	width: 800px;
+	height: 400px;
+
+	display: flex;
+	flex-direction:column;  /* главная ось вниз, поперечная вправо */
+	align-items: center; /* центрируем по побочной оси */
+	justify-content: center; /* центрируем по главной оси */
+	
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+	
+}
+
+/* задача 6 */
+
+.wrapper{
+	border: 1px solid red;
+	margin: 20px auto;
+	width: 800px;
+	height: 400px;
+
+	display: flex;
+	flex-direction:column-reverse;  /* главная ось вверх, поперечная вправо */
+	align-items: center; /* центрируем по побочной оси */
+	justify-content: center; /* центрируем по главной оси */
+	
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;
+	
+}

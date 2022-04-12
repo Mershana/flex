@@ -1,0 +1,57 @@
+/* задача 1 */
+
+.wrapper{
+	width: 800px;
+	height: 400px;
+	margin: 10px auto;
+	border: 1px solid red;
+
+	display: flex;
+	flex-direction: row;  /* главная ось слева направо */
+	justify-content: center; /* блоки к центру главной оси */
+	align-items:stretch; /* Растянуть предметы, чтобы соответствовать */
+}
+
+.elem{
+	/* width: 120px; */
+	border: 1px solid green;
+}
+
+/* задача 2 */
+
+.wrapper{
+	width: 800px;
+	height: 400px;
+	margin: 10px auto;
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column; /* главная ось сверху вниз */
+	justify-content: center;/* главная ось центрирована */
+	align-items: stretch; /* Растянуть предметы, чтобы соответствовать */
+}
+
+
+.elem{
+	height: 40px;
+	border: 1px solid green;
+}
+
+/* задача 3 */
+
+
+.wrapper{
+	width: 800px;
+	height: 400px;
+	margin: 10px auto;
+	border: 1px solid red;
+	display: flex;
+	flex-direction:column; /* главная ось сверху вниз */
+	justify-content:space-between;/* флекс элементы равномерно распределяются по всей строке, при этом пустое пространство между первым и после последнего флекс элемента равно половине между соседними элементами в контейнере. */
+	align-items: stretch; /* Растянуть предметы, чтобы соответствовать */
+}
+
+
+.elem{
+	height: 40px;
+	border: 1px solid green;
+}

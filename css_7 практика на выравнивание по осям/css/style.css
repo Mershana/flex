@@ -1,0 +1,155 @@
+/* задача 1 */
+
+.wrapper{
+	width: 900px;
+	height: 400px;
+	border: 1px solid red;
+	margin: 20px auto; 
+	/* 20px вверх-бот auto лево-право */
+	
+	/* display: flex;
+	flex-direction: row;  */
+	/*flex-direction row главная ось слева-направо, поперечная сверху-вниз */
+
+	/* justify-content: space-evenly; */
+	/* Равномерно распределяет все элементы по ширине flex-блока.*/
+
+	/* align-items: flex-end; */
+	/* Край поперечного поля гибкого элемента выравнивается с поперечным краем линии. */
+}
+
+.elem{
+	border: 1px solid green;
+	width: 120px;
+	height: 60px;}
+
+/* -------------------------------------------------------------------------------- 
+													задача 2*/
+
+
+	.wrapper{
+	width: 900px;
+	height: 400px;
+	border: 1px solid red;
+	margin: 20px auto;
+
+
+	display: flex;
+	/* flex-direction: column; */
+	/* Направление, в котором блоки будут располагаться вертикально */
+
+	/* justify-content: center; */
+	/* Выравнивание элементов по центру */
+
+	/* align-items: flex-start; */
+	/* Край поперечного начала края гибкого элемента выровнен с краем поперечного начала линии. */
+	}
+
+	.elem{
+		border: 1px solid green;
+		width: 120px;
+		height: 60px;
+	}
+
+
+							/*задача 3 */
+
+
+.wrapper{
+	display: flex;
+	/* flex-direction: column; */
+	/* Направление, в котором блоки будут располагаться вертикально */
+
+	/* justify-content: center; */
+	/* Выравнивание элементов по центру */
+
+	/* align-items: flex-end; */
+	/* Край поперечного поля гибкого элемента выравнивается с поперечным краем линии. */
+}
+
+							/* задача 4 */
+
+.wrapper{
+	display: flex;
+
+	flex-direction: column-reverse;
+	/* Как <column>, но наоборот */
+
+	justify-content: center;
+ 	/* Выравнивание элементов по центру */
+
+	align-items: flex-end;
+}							
+
+								/* задача 5  */
+
+
+.wrapper{
+	display: flex;
+
+	flex-direction: column-reverse;
+	/* Как <column>, но наоборот */
+
+	justify-content: center;
+	/* Выравнивание элементов по центру */
+
+	align-items: flex-start;
+}								
+
+							/* задача 6 */
+
+
+.wrapper{
+	display: flex;
+
+	flex-direction:column;
+	/* Направление, в котором блоки будут располагаться вертикально */
+
+	justify-content: space-between;
+	/* Равномерно распределяет все элементы по ширине flex-блока.*/
+
+	align-items: flex-start;
+}	
+
+/* задача 7 */
+
+.wrapper{
+	display: flex;
+
+	flex-direction: row;
+	/* Направление, в котором блоки будут располагаться вертикально */
+
+	justify-content: space-between;
+	/* Равномерно распределяет все элементы по ширине flex-блока.*/
+
+	align-items: flex-end;
+}
+
+
+/* задача 8 */
+
+.wrapper{
+	display: flex;
+
+	flex-direction: column-reverse;
+	/* Как <column>, но наоборот */
+
+	justify-content: space-between;
+	/* Равномерно распределяет все элементы по ширине flex-блока.*/
+
+	align-items: flex-end;
+}
+
+/* задача 9 */
+
+.wrapper{
+	display: flex;
+
+	flex-direction: row;
+	/* Направление, в котором блоки будут располагаться вертикально */
+
+	justify-content: space-around;
+	/*  Первый элемент вначале, последний в конце. Равномерно распределяет все элементы по ширине flex-блока.*/
+
+	align-items: flex-end;
+}
